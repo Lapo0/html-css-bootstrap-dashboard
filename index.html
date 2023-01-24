@@ -14,23 +14,23 @@
         <nav class="navbar bg-body-tertiary">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">
-                <img class="logo" src="./img/logo.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-                <img class="mobile-logo" src="./img/mobile-logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                <img class="logo d-none d-md-block" src="./img/logo.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                <img class="mobile-logo d-md-none ms-2" src="./img/mobile-logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
               </a>
               <form class="d-flex flex-grow-1 py-2 justify-items-center" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <ul class="row flex-nowrap align-items-center mb-0">
-                    <li class="col-auto">
+                <input class="form-control me-2" type="Search" placeholder="Search" aria-label="Search">
+                <ul class="row flex-nowrap align-items-center mb-0 fs-5">
+                    <li class="col-auto d-none d-md-block">
                         <i class="fa-solid fa-list"></i>
                     </li>
-                    <li class="col-auto">
-                        <i class="fa-solid fa-list"></i>
+                    <li class="col-auto d-none d-md-block ">
+                        <i class="fa-solid fa-question"></i>
                     </li>
-                    <li class="col-auto">
-                        <i class="fa-solid fa-list"></i>
+                    <li class="col-auto d-none d-md-block">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
                     </li>
                     <li class="col-auto me-2">
-                        <i class="fa-solid fa-list"></i>
+                        <i class="text-warning fa-solid fa-bell"></i>
                     </li>
                 </ul>
               </form>
