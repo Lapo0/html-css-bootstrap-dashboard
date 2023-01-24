@@ -13,13 +13,13 @@
     <header>
         <nav class="navbar bg-body-tertiary">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">
+              <a class="navbar-brand ps-2 py-0" href="#">
                 <img class="logo d-none d-md-block" src="./img/logo.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-                <img class="mobile-logo d-md-none ms-2" src="./img/mobile-logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                <img class="mobile-logo d-md-none py-0" src="./img/mobile-logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
               </a>
               <form class="d-flex flex-grow-1 py-2 justify-items-center" role="search">
-                <input class="form-control me-2" type="Search" placeholder="Search" aria-label="Search">
-                <ul class="row flex-nowrap align-items-center mb-0 fs-5">
+                <input class="form-control me-4" type="Search" placeholder="Search" aria-label="Search">
+                <ul class="row flex-nowrap align-items-center mb-0 ps-0 fs-5">
                     <li class="col-auto d-none d-md-block">
                         <i class="fa-solid fa-list"></i>
                     </li>
@@ -40,30 +40,38 @@
 
     <main>
         <div class="sidebar bg-sidebar text-light">
-            <div class="container-fluid py-5 px-4">
-                <ul class="row flex-column ps-0 fs-5">
+            <div class="container-fluid py-5">
+                <ul class="row flex-column ps-0 fs-5 text-center">
                     <li>
-                        <a href="#">
-                            <i class="pe-2 fa-solid fa-house"></i>
-                            Home
+                        <a href="#" class="row flex-nowrap align-items-center">
+                            <i class="col-5 fa-solid fa-house"></i>
+                            <span class="col-auto p-0">
+                                Home
+                            </span>
                         </a>
                     </li>
                     <li>
-                        <a href="#">
-                            <i class="pe-2 fa-solid fa-signal"></i>
-                            Stats
+                        <a href="#" class="row flex-nowrap align-items-center">
+                            <i class="col-5 fa-solid fa-chart-simple"></i>
+                            <span class="col-auto p-0">
+                                Stats
+                            </span>
                         </a>
                     </li>
                     <li>
-                        <a href="#">
-                            <i class="pe-2 fa-solid fa-signal"></i>
-                            Signals
+                        <a href="#" class="row flex-nowrap align-items-center">
+                            <i class="col-5 fa-solid fa-signal"></i>
+                            <span class="col-auto p-0">
+                                Signals
+                            </span>
                         </a>
                     </li>
                     <li>
-                        <a href="#">
-                            <i class="pe-2 mt-auto fa-solid fa-gear"></i>
-                            Admin
+                        <a href="#" class="row flex-nowrap align-items-center">
+                            <i class="col-5 mt-auto fa-solid fa-gear"></i>
+                            <span class="col-auto p-0">
+                                Admin
+                            </span>
                         </a>
                     </li>
                 </ul>
@@ -72,7 +80,22 @@
         
         <div class="main-content">
             
-        ciao
+        <section class="bg-new-student text-light">
+            <div class="container-fluid new-student">
+                <div class="row row-cols-1">
+                    <div class="col col-md-4 col-lg-6">
+ciao
+                    </div>
+                    <div class="col col-md-4 col-lg-3">
+ciao
+                    </div>
+                    <div class="col order-first order-md-last col-md-4 col-lg-3">
+                        primo
+                    </div>
+                </div>
+
+            </div>
+        </section>
 
 
         </div>

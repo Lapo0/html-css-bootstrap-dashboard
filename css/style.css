@@ -1,6 +1,4 @@
-.debug header{
-    height: 75px;
-}
+
 
 .debug main{
     display: flex;
@@ -17,17 +15,21 @@
     height: calc(100vh - 75px);
     width: calc(100vw - 150px);
     display: inline-block;
-    background-color: blue;
 }
 
 /***************************************/
 
 :root{
     --blue: #051e34;
+    --celest: #1B72E8;
 }
 
 .bg-sidebar{
     background-color: var(--blue);
+}
+
+.bg-new-student{
+    background-color: var(--celest);
 }
 
 ul,
@@ -41,21 +43,32 @@ a {
 HEADER
 *************************************/
 .logo{
-    width: 150px;
-    transform: scale(1.2);
+    height: 100%;
+    width: auto;
 }
 
 .mobile-logo{
-    transform: scale(2.5);
+    height: 100%;
+    width: 50px;
 }
 
 input{
     background-color: gray;
 }
 
+i{
+    width: 20px;
+}
+
+
+/*************************************
+Sidebar
+*************************************/
 .sidebar a{
     color: white;
 }
+
+
 
 
 @media (min-width: 576px) { ... }
@@ -68,6 +81,10 @@ input{
 
     .main-content{
         width: calc(100vw - 68px);
+    }
+
+    .sidebar a span{
+        display: none;
     }
 }
 
