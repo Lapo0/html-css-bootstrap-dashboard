@@ -52,9 +52,7 @@ HEADER
     width: 50px;
 }
 
-input{
-    background-color: gray;
-}
+
 
 i{
     width: 20px;
@@ -68,7 +66,22 @@ Sidebar
     color: white;
 }
 
+/*************************************
+main
+*************************************/
 
+.bg-grid-app{
+    background-color: #165BBA;
+}
+
+.offcanvas .offcanvas-title.form{
+    padding: 12px;
+}
+
+.offcanvas-body p{
+    font-size: 18px;
+    margin-bottom: 0.5rem;
+}
 
 
 @media (min-width: 576px) { ... }

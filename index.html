@@ -19,7 +19,7 @@
               </a>
               <form class="d-flex flex-grow-1 py-2 justify-items-center" role="search">
                 <input class="form-control me-4" type="Search" placeholder="Search" aria-label="Search">
-                <ul class="row flex-nowrap align-items-center mb-0 ps-0 fs-5">
+                <ul class="row flex-nowrap align-items-center mb-0 ps-0 fs-5 text-center">
                     <li class="col-auto d-none d-md-block">
                         <i class="fa-solid fa-list"></i>
                     </li>
@@ -30,7 +30,106 @@
                         <i class="fa-solid fa-ellipsis-vertical"></i>
                     </li>
                     <li class="col-auto me-2">
-                        <i class="text-warning fa-solid fa-bell"></i>
+                        <a data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                            <i class="text-warning fa-solid fa-bell"></i>
+                        </a>
+                        <div class="offcanvas offcanvas-end w-50" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                            <div class="offcanvas-header">
+                              <h5 class="offcanvas-title form" id="offcanvasExampleLabel">
+                                Inserisci un nuovo studente
+                              </h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                              
+                              <div class="dropdown mt-3">
+                                <div class="container-fluid">
+                                    <div class="row text-start row-gap-4">
+                                        <div class="col-6 input-group-lg">
+                                            <p>
+                                                Nome
+                                            </p>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="col-6 input-group-lg">
+                                            <p>
+                                                Cognome
+                                            </p>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="col-6 input-group-lg">
+                                            <p>
+                                                Email
+                                            </p>
+                                            <div class="input-group flex-nowrap">
+                                                <span class="input-group-text" id="addon-wrapping">@</span>
+                                                <input type="email" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+                                              </div>
+                                        </div>
+                                        <div class="col-6 input-group-lg">
+                                            <p>
+                                                Password
+                                            </p>
+                                            <input type="password" class="form-control" id="inputPassword">
+                                        </div>
+                                        <div class="col-12 input-group-lg">
+                                            <p>
+                                                Indirizzo
+                                            </p>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="col-6 input-group-lg">
+                                            <p>
+                                                Città
+                                            </p>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="col-4 input-group-lg">
+                                            <p>
+                                                Stato
+                                            </p>
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected>Open this select menu</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                              </select>
+                                        </div>
+                                        <div class="col-2 input-group-lg">
+                                            <p>
+                                                CAP
+                                            </p>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="mb-3">
+                                                <label for="formFile" class="form-label">Foto</label>
+                                                <input class="form-control form-control-lg" type="file" id="formFile">
+                                              </div>
+                                        </div>
+                                        <div class="col-12 input-group-lg">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                  Seleziona per proseguire
+                                                </label>
+                                              </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="col-auto">
+                                                <button type="submit" class="btn btn-primary mb-3 btn-lg">Salva</button>
+                                                <button type="submit" class="btn btn-warning mb-3 btn-lg">Svuota</button>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                
+                              </div>
+                            </div>
+                          </div>
+                        
                     </li>
                 </ul>
               </form>
@@ -84,13 +183,42 @@
             <div class="container-fluid new-student">
                 <div class="row row-cols-1">
                     <div class="col col-md-4 col-lg-6">
-ciao
+                        <h3 class="d-inline-block mb-0">
+                            Boolean
+                        </h3>
+                        <span class="fw-0 badge rounded-pill bg-grid-app">
+                            Piano Blaze
+                        </span>
+                        <div class="app">
+                            <span class="fw-0 badge rounded-pill text-bg-secondary">
+                                3 App
+                            </span>
+                            <span class="fw-0 badge rounded-pill text-bg-secondary">
+                                Boolean mobile app
+                            </span>
+                            <span class="fw-0 badge rounded-pill text-bg-secondary">
+                                Boolean web app
+                            </span>
+                            <span class="fw-0 badge rounded-pill text-bg-secondary">
+                                Boolean blog app
+                            </span>
+                        </div>
                     </div>
                     <div class="col col-md-4 col-lg-3">
-ciao
+                        <p>
+                            Studenti online negli ultimi 30 minuti
+                        </p>
+                        <p>
+                            125
+                        </p>
                     </div>
                     <div class="col order-first order-md-last col-md-4 col-lg-3">
-                        primo
+                        <div class="add-new-student">
+                            <span>
+                                Nuovo studente
+                            </span>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
                     </div>
                 </div>
 
