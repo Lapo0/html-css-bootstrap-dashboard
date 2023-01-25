@@ -17,7 +17,6 @@
 }
 
 /***************************************/
-
 :root{
     --blue: #051e34;
     --celest: #1B72E8;
@@ -41,7 +40,6 @@ a {
 /*************************************
 HEADER
 *************************************/
-
 header{
     height: 75px;
 }
@@ -80,7 +78,6 @@ ul.nav {
 /*************************************
 main
 *************************************/
-
 .bg-grid-app{
     background-color: #165BBA;
 }
@@ -125,10 +122,7 @@ main
 }
 
 
-@media (min-width: 576px) { 
-    
-    
-}
+@media (min-width: 576px) { . . . }
 
 
 @media (min-width: 768px) {
@@ -145,7 +139,6 @@ main
     .name-student{
         width: 50%;
     }
-    
 }
 
 
@@ -173,9 +166,6 @@ main
     .name-student{
         width: 30%;
     }
-    
-
-    
 }
 
 
@@ -187,7 +177,6 @@ main
     .name-student{
         width: 50%;
     }
-    
  }
 
 
@@ -195,5 +184,4 @@ main
     .name-student{
         width: 60%;
     }
-    
 }
