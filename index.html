@@ -30,7 +30,16 @@
                         <i class="fa-solid fa-ellipsis-vertical"></i>
                     </li>
                     <li class="col-auto me-2">
-                        <i class="text-warning fa-solid fa-bell"></i>
+                        <div class="dropstart">
+                            <a class=" dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="text-warning fa-solid fa-bell"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
                     </li>
                 </ul>
               </form>
@@ -41,43 +50,32 @@
     <main>
         <div class="sidebar bg-sidebar text-light">
             <div class="container-fluid py-5">
-                <ul class="row flex-column ps-0 fs-5 text-center row-gap-3">
-                    <li>
-                        <a href="#" class="row flex-nowrap align-items-center">
-                            <i class="col-5 fa-solid fa-house"></i>
-                            <span class="col-auto p-0">
-                                Home
-                            </span>
+                <ul class="nav flex-column fs-5">
+                    <li class="nav-item">
+                        <a class="nav-link d-flex align-items-center  gap-3 active" aria-current="page" href="#">
+                            <i class="fa-solid fa-house"></i>
+                            Home
                         </a>
                     </li>
-                    <li>
-                        <a href="#" class="row flex-nowrap align-items-center">
-                            <i class="col-5 fa-solid fa-chart-simple"></i>
-                            <span class="col-auto p-0">
-                                Stats
-                            </span>
+                    <li class="nav-item">
+                        <a class="nav-link d-flex align-items-center gap-3" href="#">
+                            <i class="fa-solid fa-chart-simple"></i>
+                            Stats
                         </a>
                     </li>
-                    <li>
-                        <a href="#" class="row flex-nowrap align-items-center">
-                            <i class="col-5 fa-solid fa-signal"></i>
-                            <span class="col-auto p-0">
-                                Signals
-                            </span>
+                    <li class="nav-item">
+                        <a class="nav-link d-flex align-items-center gap-3" href="#">
+                            <i class="fa-solid fa-signal"></i>
+                            Signals
                         </a>
                     </li>
-                </ul>
-
-                <div class="row ps-0 fs-5 text-center">
-                    <div class="setting">
-                        <a href="#" class="row flex-nowrap align-items-center">
-                            <i class="col-5 mt-auto fa-solid fa-gear"></i>
-                            <span class="col-auto p-0">
-                                Admin
-                            </span>
+                    <li class="nav-item mt-auto">
+                        <a class="nav-link d-flex align-items-center gap-3">
+                            <i class="fa-solid fa-gear"></i>
+                            Admin
                         </a>
-                    </div>
-                </div>
+                    </li>
+                  </ul>
             </div>
         </div>
         
