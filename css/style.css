@@ -83,6 +83,10 @@ main
     background-color: #165BBA;
 }
 
+.offcanvas.offcanvas-end{
+    width: 100%;
+}
+
 .offcanvas .offcanvas-title.form{
     padding: 12px;
 }
@@ -150,10 +154,6 @@ main
 
     .main-content{
         width: calc(100vw - 68px);
-    }
-
-    .offcanvas.offcanvas-end{
-        width: 100%;
     }
 
     .main-content{
