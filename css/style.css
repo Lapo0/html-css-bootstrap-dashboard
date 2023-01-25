@@ -83,14 +83,20 @@ main
     margin-bottom: 0.5rem;
 }
 
+.square-plus{
+    width: 45px;
+    line-height: 40px;
+}
 
-@media (min-width: 576px) { ... }
+
+
+@media (min-width: 576px) { 
+    
+ }
 
 
 @media (max-width: 768px) {
-    .debug .sidebar{
-        width: 68px;
-    }
+    
 
     .main-content{
         width: calc(100vw - 68px);
@@ -102,7 +108,19 @@ main
 }
 
 
-@media (min-width: 992px) { ... }
+@media (max-width: 992px) { 
+    .debug .sidebar{
+        width: 68px;
+    }
+    
+    .main-content{
+        width: calc(100vw - 68px);
+    }
+
+    .sidebar a span{
+        display: none;
+    }
+ }
 
 
 @media (min-width: 1200px) { ... }
