@@ -96,13 +96,26 @@ main
     width: 30px;
 }
 
+.none{
+    display: none;
+}
+
 .square-i{
     width: 28px;
     height: auto;
 }
 
+.badge{
+    text-align: center;
+}
+
+.name-student{
+    width: 50%;
+}
+
 
 @media (min-width: 576px) { 
+    
     
 }
 
@@ -118,9 +131,10 @@ main
         display: none;
     }
 
-    .none{
-        display: none;
+    .name-student{
+        width: 50%;
     }
+    
 }
 
 
@@ -144,6 +158,17 @@ main
     .debug .sidebar{
         width: 150px;
     }
+
+    .none{
+        display: table-cell;
+    }
+
+    .name-student{
+        width: 30%;
+    }
+    
+
+    
 }
 
 
@@ -151,9 +176,17 @@ main
     .offcanvas.offcanvas-end{
         width: 50%;
     }
+
+    .name-student{
+        width: 50%;
+    }
+    
  }
 
 
 @media (min-width: 1400px) { 
+    .name-student{
+        width: 60%;
+    }
     
 }
