@@ -41,6 +41,10 @@ a {
 /*************************************
 HEADER
 *************************************/
+
+header{
+    height: 75px;
+}
 .logo{
     height: 100%;
     width: auto;
@@ -50,8 +54,6 @@ HEADER
     height: 100%;
     width: 50px;
 }
-
-
 
 i{
     width: 20px;
