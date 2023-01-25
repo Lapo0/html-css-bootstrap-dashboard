@@ -88,6 +88,14 @@ main
     line-height: 40px;
 }
 
+.table tbody img{
+    width: 30px;
+}
+
+.square-i{
+    width: 28px;
+    height: auto;
+}
 
 
 @media (min-width: 576px) { 
@@ -112,7 +120,7 @@ main
     .debug .sidebar{
         width: 68px;
     }
-    
+
     .main-content{
         width: calc(100vw - 68px);
     }
